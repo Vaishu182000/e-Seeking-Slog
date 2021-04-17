@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="navigation">
+			<a href="index.html" class="color">Home</a>
+			<a href="about.html" class="color" class="space">About Us</a>
+			<a href="customer.html" class="color">Customer Registration</a>
+			<a href="registration.html" class="color" class="space">Info & Registration</a>
+			<a href="contact.html" class="color">Contact</a>
+			<a href="index.html" class="color" class="space">Sign Out</a>
+		</div>
+		<br>
+		<h1 class="contact"><b>Contact us</b></h1>
+		<p class="para">Team Members</p>
+		<p class="para1">S.Vaishnavi<br>
+		   Contact:9500977257<br>
+		   Mail ID:svaish2000@gmail.com
+		</p>
+		<p class="para1">K.Sneha<br>
+		   Contact:8270525228<br>
+		   Mail ID:snehajkn@gmail.com
+		</p>
+		<br>
+		<h1 class="para"><center>Give Feedback</center></h1>
+		<br>
+		<div id="erresult" class="alert offset-md-4">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<form class="form-container">
+						<div class="form-group">
+							<label for="exampleInputUsername">Username</label>
+							<input type="text" class="form-control" id="exampleInputUsername" placeholder="username">
+						</div>
+						<br>
+						<div class="form-group">
+							<label for="exampleInputtown">Hometown</label>
+							<input type="text" class="form-control" id="exampleInputtown" placeholder="hometown">
+						</div>
+						<br>
+						<div class="form-group">
+							<label for="exampleInputEmail">Email Address</label>
+							<input type="email" class="form-control" id="exampleInputEmail" placeholder="email">
+						</div>
+						<br>
+						<div class="form-group">
+							<label for="exampleInputphone">Phone number</label>
+							<input type="tel" class="form-control" id="exampleInputphone" placeholder="phone number">
+						</div>
+						<br>
+						<div class="form-group">
+							<label for="exampleInputMessage">Message</label>
+							<textarea class="form-control" id="exampleInputMessage" placeholder="Give your feedback"></textarea>
+						</div>
+						<br>
+						<div class="offset-md-4">
+						<button type="button" class="btn btn-danger" value="submit" onclick="check()">Submit </button>
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script language = "javascript" type = "text/javascript">
+		function check()
+		{
+			document.getElementById("erresult").innerHTML="FEEDBACK HAS BEEN SUBMITTED";
+		}
+		</script>
+	</body>
+</html>

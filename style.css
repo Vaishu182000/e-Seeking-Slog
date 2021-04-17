@@ -1,0 +1,143 @@
+.title
+{
+	font-family:Californian FB;
+	text-align:center;
+	color:white;
+	font-size:70px;
+	margin-top:13%;
+}
+.welcome
+{
+	margin-top:20%;
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin:0px;
+	padding:0px;
+}
+.navigation
+{
+	word-spacing:5px;
+	text-align:right;
+	font-size:25px;
+	font-family:Colonna MT;
+	margin-top:10px;
+}
+.navigation a.colour .space
+{
+	word-spacing:0px;
+}
+.navigation a.colour 
+{
+	color:white;
+	margin-top:20px;
+	margin-right:10px;
+}
+.navigation a.color 
+{
+	color:black;
+	margin-top:20px;
+	margin-right:10px;
+}
+.centre
+{
+	text-align:center;
+}
+.about
+{
+	background-color:#DC1139;
+	color:white;
+	padding:20px;
+	padding-left:100px;
+}
+.contact
+{
+	background-color:#CF07DC;
+	color:white;
+	padding:20px;
+	padding-left:100px;
+}
+.registration
+{
+	background-color:#073CEF;
+	color:white;
+	padding:20px;
+	padding-left:100px;
+}
+.customer
+{
+	background-color:#e6b800;
+	color:white;
+	padding:20px;
+	padding-left:100px;
+}
+.text
+{
+	color:black;
+	font-size:20px;
+	font-family:Calibri;
+	padding:35px;
+	margin:0px;
+	text-indent:50px;
+}
+.image
+{
+	text-align:center;
+	width:400px;
+	height:300px;
+}
+.para
+{
+	font-size:35px;
+	font-family:Bodoni MT Black;
+	padding-left:100px;
+	color:black;
+}
+.para1
+{
+	font-size:20px;
+	font-family:Harrington;
+	padding-left:100px;
+	color:black;
+}
+.reg{
+	padding-left:100px;
+	color:black;
+	font-size:25px;
+	word-spacing:75px;
+}
+.tour{
+	color:black;
+	font-family:Monotype Corsiva;
+}
+.form-container{
+	border:1px solid #e1e1d0;
+	padding:30px 70px;
+	width:400px;
+	height:825px;
+}
+.gender{
+	font-size:20px;
+}
+.gender1{
+	font-size:15px;
+}
+#exampleInputMessage{
+	height:150px;
+}
+.form-group{
+	font-size:20px;
+}
+.row{
+	width:500px;
+	height:100px;
+	word-spacing:10px;
+}
+.che{
+	padding-left:100px;
+	font-family:Cambria (Headings);
+}
+.main{
+	padding-left:100px;
+	font-family:Book Antiqua;
+	font-size:20px;
+}

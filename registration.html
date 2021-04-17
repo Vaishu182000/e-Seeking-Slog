@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Info & Registration</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="navigation">
+			<a href="index.html" class="color">Home</a>
+			<a href="about.html" class="color" class="space">About Us</a>
+			<a href="customer.html" class="color">Customer Registration</a>
+			<a href="registration.html" class="color" class="space">Info & Registration</a>
+			<a href="contact.html" class="color">Contact</a>
+			<a href="index.html" class="color" class="space">Sign Out</a>
+		</div>
+		<br>
+		<h1 class="registration"><b>Info & Registration</b><h1>
+		<br>
+		<h1 class="para">Places</h1>
+		<br>
+		<div class="reg">
+			<a href="chennai.html" class="tour">Chennai</a>
+			<a href="salem.html"class="tour">Salem</a>
+			<a href="madurai.html"class="tour">Madurai</a>
+			<a href="pondicherry.html"class="tour">Pondicherry</a>
+		</div>
+		<br>
+		<br>
+		<br>
+		<center>
+			<img align="middle" src="image2.jpg" alt="No image" class="image">
+		</center>
+		<br>
+		<h1 class="para">Registration</h1>
+		<br>
+		<div id="erresult" class="alert offset-md-4">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<form class="form-container">
+						<div class="form-group">
+							<label for="exampleInputUsername">UserID</label>
+							<input type="text" class="form-control" id="exampleInputUsername" placeholder="UserID">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputName">Name*</label>
+							<input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail">Email ID*</label>
+							<input type="email" class="form-control" id="exampleInputEmail" placeholder="email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputphone">Phone number*</label>
+							<input type="tel" class="form-control" id="exampleInputphone" placeholder="phone number">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputDestination">Departure Place*</label>
+							<input type="text" class="form-control" id="exampleInputDestination" placeholder="Departure Place">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputArrival">Arrival Place*</label>
+							<input type="text" class="form-control" id="exampleInputArrival" placeholder="Arrival Place">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputAge">Number of persons*</label>
+							<input type="number" class="form-control" id="exampleInputAge" placeholder="Number of persons">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputMode">Mode of transportation*</label>
+							<input type="text" class="form-control" id="exampleInputMode" placeholder="Mode">
+						</div>
+						<div class="offset-md-4">
+						<button type="button" class="btn btn-success" onclick="check()">Register</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script language = "javascript" type = "text/javascript">
+		function check()
+		{
+			document.getElementById("erresult").innerHTML="REGISTRATION HAS BEEN COMPLETED";
+		}
+		</script>
+	</body>
+</html>
